@@ -1,0 +1,25 @@
+@import "styles/main";
+
+.headerWrapper {
+  padding: 24px 24px 0!important;
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto!important;
+  z-index: 1;
+}
+
+.logo {
+  background: rgba(255, 255, 255, 0.3);
+  font-family: Mangueira, serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  & :hover {
+    color: lighten($primary, 60%);
+  }
+}
+
+.navButton {
+  font-size: 1rem!important;
+  font-weight: bolder!important;
+}

@@ -1,0 +1,14 @@
+{
+  "header": {
+    "navigation": {
+      "book": "Buchen",
+      "reviews": "Bewertungen",
+      "work": "Arbeit",
+      "about": "Über"
+    }
+  },
+  "business": {
+    "reviews": "bewertungen",
+    "open_today": "Heute geöffnet"
+  }
+}

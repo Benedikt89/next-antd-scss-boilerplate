@@ -1,0 +1,66 @@
+@import "styles/main.scss";
+
+.rateWrapper {
+  color: $primary;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  .rateText {
+    font-size: 1.5rem;
+    color: $secondary;
+  }
+  ul {
+    color: $secondary;
+    padding-bottom: 0.5rem;
+  }
+  .rateReviews {
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+}
+
+.banner {
+  max-width: 100%;
+  position: relative;
+  margin: 1.5rem auto;
+  img {
+    max-width: 100%;
+  }
+  .text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 63%;
+    transform: translate(23%, 82%);
+  }
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.detailsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.detailsRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  & :nth-child(2) {
+    margin-left: 0.5rem;
+  }
+  &.right{
+    text-align: right;
+  }
+}

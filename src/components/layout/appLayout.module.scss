@@ -1,0 +1,14 @@
+@import "styles/main.scss";
+
+.appLayout {
+  background-color: $white!important;
+  margin: 0 auto;
+  // max-width: 480px; //? for Mobile screen only
+  min-height: 100vh;
+  width: 100%;
+
+  .contentPage {
+    padding: 0 24px 0;
+    position: relative;
+  }
+}
